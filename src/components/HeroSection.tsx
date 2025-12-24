@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, ChevronDown } from "lucide-react";
+import { Github, Linkedin, Mail, ChevronDown, Download } from "lucide-react";
 import { Button } from "./ui/button";
 import profilePhoto from "@/assets/profile-no-bg.png";
 
@@ -60,7 +60,10 @@ const HeroSection = () => {
                   <a href="#projects">View My Work</a>
                 </Button>
                 <Button variant="heroOutline" size="xl" asChild>
-                  <a href="#contact">Let's Connect</a>
+                  <a href="/resume.pdf" download="Renuka_Prasad_Resume.pdf">
+                    <Download className="mr-2" size={18} />
+                    Download CV
+                  </a>
                 </Button>
               </div>
               
