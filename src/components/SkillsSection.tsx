@@ -1,7 +1,15 @@
 const skillCategories = [
   {
     title: "Languages",
-    skills: ["Python", "C", "C++", "JavaScript", "TypeScript", "SQL"],
+    skills: ["Python", "C", "C++", "JavaScript", "TypeScript", "SQL", "R"],
+  },
+  {
+    title: "Data Science & ML",
+    skills: ["NumPy", "Pandas", "Scikit-learn", "TensorFlow", "PyTorch", "Keras", "NLTK"],
+  },
+  {
+    title: "Data Visualization",
+    skills: ["Matplotlib", "Seaborn", "Plotly", "Tableau", "Power BI", "Excel"],
   },
   {
     title: "Frontend",
@@ -17,11 +25,11 @@ const skillCategories = [
   },
   {
     title: "DevOps & Tools",
-    skills: ["Docker", "AWS", "Git", "GitHub", "VS Code", "Postman"],
+    skills: ["Docker", "AWS", "Git", "GitHub", "Jupyter", "VS Code"],
   },
   {
     title: "Core Concepts",
-    skills: ["DSA", "OOPs", "DBMS", "OS", "System Design", "TDD"],
+    skills: ["Statistics", "Machine Learning", "Deep Learning", "EDA", "Feature Engineering", "DSA"],
   },
 ];
 
