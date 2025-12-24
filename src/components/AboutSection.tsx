@@ -26,18 +26,18 @@ const AboutSection = () => {
             <div className="lg:col-span-1 flex justify-center">
               <div className="relative group">
                 <div className="relative w-72 h-80 md:w-80 md:h-96">
-                  {/* Gradient background */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary/30 via-primary/10 to-transparent rounded-2xl group-hover:from-primary/40 group-hover:via-primary/20 transition-all duration-500" />
-                  {/* Border */}
-                  <div className="absolute inset-0 rounded-2xl border border-primary/20 group-hover:border-primary/40 transition-all duration-500" />
-                  {/* Image */}
-                  <img 
-                    src={profilePhoto} 
-                    alt="Renuka Prasad B.S" 
-                    className="relative w-full h-full object-cover object-top rounded-2xl group-hover:scale-[1.02] transition-transform duration-500"
-                  />
                   {/* Glow effect */}
-                  <div className="absolute -inset-4 bg-primary/10 rounded-3xl blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10" />
+                  <div className="absolute -inset-4 bg-primary/20 rounded-3xl blur-2xl group-hover:bg-primary/30 transition-all duration-500 -z-10" />
+                  {/* Border */}
+                  <div className="absolute inset-0 rounded-2xl border border-primary/30 group-hover:border-primary/50 transition-all duration-500" />
+                  {/* Dark background container */}
+                  <div className="relative w-full h-full rounded-2xl overflow-hidden bg-gradient-to-b from-zinc-800 via-zinc-900 to-black">
+                    <img 
+                      src={profilePhoto} 
+                      alt="Renuka Prasad B.S" 
+                      className="w-full h-full object-cover object-top group-hover:scale-[1.02] transition-transform duration-500"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

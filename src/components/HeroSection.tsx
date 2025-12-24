@@ -17,11 +17,11 @@ const HeroSection = () => {
             <div className="relative group flex-shrink-0 animate-fade-up" style={{ animationDelay: "0.1s" }}>
               <div className="relative w-64 h-64 md:w-80 md:h-80">
                 {/* Glow effect behind image */}
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/40 to-primary/10 rounded-full blur-2xl group-hover:blur-3xl transition-all duration-500 group-hover:scale-110" />
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/50 to-primary/20 rounded-full blur-2xl group-hover:blur-3xl transition-all duration-500 group-hover:scale-110" />
                 {/* Border ring */}
-                <div className="absolute inset-0 rounded-full border-2 border-primary/30 group-hover:border-primary/60 group-hover:scale-105 transition-all duration-500" />
-                {/* Image container */}
-                <div className="relative w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-primary/20 to-background">
+                <div className="absolute inset-0 rounded-full border-2 border-primary/40 group-hover:border-primary/70 group-hover:scale-105 transition-all duration-500" />
+                {/* Image container with dark background */}
+                <div className="relative w-full h-full rounded-full overflow-hidden bg-gradient-to-b from-zinc-800 via-zinc-900 to-black">
                   <img 
                     src={profilePhoto} 
                     alt="Renuka Prasad B.S" 
