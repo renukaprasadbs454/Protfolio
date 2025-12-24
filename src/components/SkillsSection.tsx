@@ -33,6 +33,17 @@ const skillCategories = [
   },
 ];
 
+const softSkills = [
+  "Communication",
+  "Problem Solving",
+  "Team Collaboration",
+  "Leadership",
+  "Critical Thinking",
+  "Time Management",
+  "Adaptability",
+  "Creativity",
+];
+
 const SkillsSection = () => {
   return (
     <section id="skills" className="py-24 bg-card/30">
@@ -41,32 +52,52 @@ const SkillsSection = () => {
           {/* Section Title */}
           <div className="text-center mb-16">
             <p className="text-primary font-medium mb-2">What I Know</p>
-            <h2 className="font-display text-4xl md:text-5xl font-bold">Technical Skills</h2>
+            <h2 className="font-display text-4xl md:text-5xl font-bold">Skills</h2>
           </div>
           
-          {/* Skills Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {skillCategories.map((category, index) => (
-              <div
-                key={category.title}
-                className="glass rounded-xl p-6 hover:shadow-glow transition-all duration-300"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <h3 className="font-display font-semibold text-lg text-primary mb-4">
-                  {category.title}
-                </h3>
-                <div className="flex flex-wrap gap-2">
-                  {category.skills.map((skill) => (
-                    <span
-                      key={skill}
-                      className="px-3 py-1.5 bg-secondary/50 text-secondary-foreground rounded-full text-sm hover:bg-primary/20 hover:text-primary transition-colors duration-300"
-                    >
-                      {skill}
-                    </span>
-                  ))}
+          {/* Technical Skills Grid */}
+          <div className="mb-12">
+            <h3 className="font-display text-2xl font-semibold text-center mb-8">Technical Skills</h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {skillCategories.map((category, index) => (
+                <div
+                  key={category.title}
+                  className="glass rounded-xl p-6 hover:shadow-glow transition-all duration-300"
+                  style={{ animationDelay: `${index * 0.1}s` }}
+                >
+                  <h4 className="font-display font-semibold text-lg text-primary mb-4">
+                    {category.title}
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {category.skills.map((skill) => (
+                      <span
+                        key={skill}
+                        className="px-3 py-1.5 bg-secondary/50 text-secondary-foreground rounded-full text-sm hover:bg-primary/20 hover:text-primary transition-colors duration-300"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
                 </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Soft Skills */}
+          <div>
+            <h3 className="font-display text-2xl font-semibold text-center mb-8">Soft Skills</h3>
+            <div className="glass rounded-xl p-8 hover:shadow-glow transition-all duration-300">
+              <div className="flex flex-wrap justify-center gap-3">
+                {softSkills.map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-4 py-2 bg-primary/10 text-primary border border-primary/30 rounded-full text-sm font-medium hover:bg-primary/20 hover:border-primary/50 transition-all duration-300"
+                  >
+                    {skill}
+                  </span>
+                ))}
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </div>
