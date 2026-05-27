@@ -5,11 +5,11 @@ export const personalInfo = {
   title: "Full Stack & AI Engineer",
   tagline:
     "Building scalable software systems, AI-powered applications, and automation workflows.",
-  location: "Bangalore, India",
+  location: "Karnataka, India",
   email: "rpbs.454@gmail.com",
   phone: "+91 88614 82004",
-  github: "https://github.com/RenukaPrasadB",
-  linkedin: "https://www.linkedin.com/in/renuka-prasad-b-s",
+  github: "https://github.com/renukaprasadbs454",
+  linkedin: "https://www.linkedin.com/in/renukaprasadbs-rpbs454",
   githubUsername: "RenukaPrasadB",
   focusAreas: [
     "Full Stack Development",
@@ -26,20 +26,20 @@ export const personalInfo = {
 };
 
 export const aboutContent = {
-  summary: `Software Engineer and Full Stack Developer with hands-on experience building scalable web applications, AI-powered systems, and production-grade automation workflows. I've shipped real-world products at CL Infotech — including the edtech platform MindMatrix and the online brokerage platform TechCovate — working across the full stack from React frontends to Node.js APIs and GCP deployments.`,
+  summary: `Full Stack & AI Engineer with hands-on experience building scalable web applications, AI-powered systems, and automation workflows across edtech and fintech platforms. Worked on production-grade products at CL Infotech including MindMatrix and TechCovate, contributing to frontend systems, backend APIs, cloud deployment, RAG pipelines, semantic search, analytics automation, and database optimization.`,
   highlights: [
-    "Full stack engineering with React, Next.js, Node.js, and Fastify",
-    "AI systems — RAG pipelines, LLM integrations, embeddings, and semantic search",
-    "Automation workflows for data extraction, reporting, and analytics",
-    "Cloud deployment on Google Cloud Platform with Docker",
-    "Analytics systems with PostgreSQL, MongoDB, and data pipelines",
-    "200+ LeetCode problems · 6× coding competition winner · GSoC contributor",
+    "Frontend engineering with React.js, Next.js, and Tailwind CSS",
+    "Backend development using Node.js, Express.js, Fastify, and REST APIs",
+    "AI systems using RAG pipelines, embeddings, vector databases, and LLM workflows",
+    "Automation pipelines for reporting, extraction, and analytics workflows",
+    "Cloud and infra deployment with GCP, NGINX, Caddy, and Docker",
+    "200+ LeetCode problems solved and 6x coding competition winner",
   ],
   education: {
     degree: "B.E. in Electronics and Communication Engineering",
     institution: "M.S. Ramaiah Institute of Technology, Bangalore",
-    period: "Sept 2022 — July 2026",
-    cgpa: "8.3",
+    period: "2022 — 2026",
+    cgpa: "7.3",
     minor: "Minor Degree in Data Analytics",
   },
 };
@@ -65,10 +65,10 @@ export const skillCategories = [
       "Fastify",
       "Express.js",
       "Python",
-      "Django",
-      "Flask",
       "RESTful APIs",
       "Microservices",
+      "Authentication",
+      "Caching",
     ],
   },
   {
@@ -90,8 +90,6 @@ export const skillCategories = [
     skills: [
       "PostgreSQL",
       "MongoDB",
-      "MySQL",
-      "Firebase Firestore",
       "SQL",
       "NoSQL",
     ],
@@ -102,12 +100,10 @@ export const skillCategories = [
     skills: [
       "GCP",
       "Docker",
-      "Firebase Hosting",
+      "NGINX",
+      "Caddy",
       "Git",
       "Postman",
-      "Linux",
-      "CI/CD Basics",
-      "Jira",
     ],
   },
 ];
@@ -115,27 +111,28 @@ export const skillCategories = [
 export const experiences = [
   {
     company: "CL Infotech",
-    role: "Software Developer Intern",
-    period: "Present",
+    role: "Software Engineer",
+    period: "Jan 2026 — Present",
     location: "Bangalore, India",
     products: "MindMatrix & TechCovate",
     highlights: [
-      "Developed and maintained full stack web applications for edtech (MindMatrix) and online brokerage (TechCovate) products",
-      "Built responsive frontends with React.js; developed backend APIs using Node.js, Express.js, and Fastify",
-      "Worked with SQL and NoSQL databases; deployed and maintained applications on Google Cloud Platform",
-      "Contributed to AI-integrated systems using RAG pipelines, LLM workflows, embeddings, and semantic search chatbots",
-      "Automated reporting and data extraction workflows; participated in debugging, testing, and agile collaboration",
+      "Built and maintained scalable full-stack modules for edtech and brokerage platforms handling operational and analytics workflows",
+      "Developed responsive frontend interfaces using React.js and integrated backend services using Node.js, Express.js, and Fastify",
+      "Designed and optimized SQL/NoSQL database operations for analytics, reporting, and application performance",
+      "Contributed to AI-powered systems using RAG, embeddings, semantic search, and LLM workflows",
+      "Automated reporting and data extraction pipelines using Python, improving operational efficiency and reducing manual work",
+      "Worked on deployment, debugging, testing, and agile collaboration within production-focused engineering teams",
     ],
   },
   {
-    company: "Pharma Bolt",
-    role: "Software Developer Intern",
-    period: "March 2025 — June 2025",
-    location: "Bengaluru, Karnataka",
+    company: "Dhee Coding Lab",
+    role: "MERN Stack Developer Intern",
+    period: "June 2025 — Dec 2025",
+    location: "Bangalore, India",
     products: null,
     highlights: [
-      "Designed microservice architecture for scalability and modularity",
-      "Developed secure RESTful APIs for client-facing applications with JWT authentication",
+      "Designed modular microservice architectures to improve scalability and maintainability of applications",
+      "Developed secure RESTful APIs with JWT authentication and backend validation for client-facing applications",
     ],
   },
 ];
@@ -144,9 +141,9 @@ export const projects = [
   {
     title: "Bulk SMTP Email Automation System",
     description:
-      "Built a scalable email automation platform with SMTP integration, campaign management, scheduling, delivery tracking, and analytics dashboard.",
-    tech: ["Node.js", "Fastify", "PostgreSQL", "React.js"],
-    github: "https://github.com/RenukaPrasadB",
+      "Developed a scalable bulk email automation platform with SMTP integration, campaign management, queue handling, scheduling, delivery tracking, and dashboard analytics.",
+    tech: ["Node.js", "SMTP", "React.js"],
+    github: "https://github.com/renukaprasadbs454",
     live: null,
     gradient: "from-blue-600/20 to-cyan-500/10",
     accent: "text-blue-400",
@@ -156,7 +153,7 @@ export const projects = [
     description:
       "Built a Retrieval-Augmented Generation chatbot using embeddings, semantic search, vector databases, and LLM integrations for context-aware responses.",
     tech: ["Python", "OpenAI API", "Vector DBs", "REST APIs"],
-    github: "https://github.com/RenukaPrasadB",
+    github: "https://github.com/renukaprasadbs454",
     live: null,
     gradient: "from-violet-600/20 to-purple-500/10",
     accent: "text-violet-400",
@@ -166,7 +163,7 @@ export const projects = [
     description:
       "Automated attendance extraction, report generation, and analytics workflows using Python automation pipelines.",
     tech: ["Python", "Pandas", "Excel Automation"],
-    github: "https://github.com/RenukaPrasadB",
+    github: "https://github.com/renukaprasadbs454",
     live: null,
     gradient: "from-emerald-600/20 to-teal-500/10",
     accent: "text-emerald-400",
@@ -176,7 +173,7 @@ export const projects = [
     description:
       "Stock portfolio analysis platform with analytics dashboards and investment risk simulations using Monte Carlo methods.",
     tech: ["Python", "Streamlit", "Machine Learning", "Data Analytics"],
-    github: "https://github.com/RenukaPrasadB",
+    github: "https://github.com/renukaprasadbs454",
     live: null,
     gradient: "from-amber-600/20 to-orange-500/10",
     accent: "text-amber-400",
@@ -190,10 +187,13 @@ export const techStack = [
   { name: "Tailwind CSS", category: "Frontend" },
   { name: "Node.js", category: "Backend" },
   { name: "Fastify", category: "Backend" },
+  { name: "Express.js", category: "Backend" },
   { name: "Python", category: "Backend" },
   { name: "PostgreSQL", category: "Database" },
   { name: "MongoDB", category: "Database" },
   { name: "Docker", category: "DevOps" },
+  { name: "NGINX", category: "DevOps" },
+  { name: "Caddy", category: "DevOps" },
   { name: "GCP", category: "Cloud" },
   { name: "RAG", category: "AI" },
   { name: "LLM Integrations", category: "AI" },
@@ -209,7 +209,9 @@ export const navLinks = [
 ];
 
 export const certifications = [
-  "MongoDB Certification — Foundational NoSQL database knowledge",
-  "FFE Mentorship Program (Scholar & Mentee) — Professional skills development",
-  "Open-source contributor — THE RESONATE Google Summer of Code",
+  "Solved 200+ coding problems on LeetCode with strong DSA foundations",
+  "6x winner in coding competitions conducted by MSRIT and MSRUAS",
+  "MongoDB Certified — Foundational NoSQL database expertise",
+  "Open-source contributor for THE RESONATE Google Summer of Code initiative",
+  "Selected as Scholar & Mentee under the FFE Mentorship Program",
 ];
