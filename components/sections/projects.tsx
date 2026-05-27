@@ -113,7 +113,7 @@ export function ProjectsSection() {
         >
           <Button variant="heroOutline" size="lg" asChild>
             <a
-              href="https://github.com/RenukaPrasadB"
+              href="https://github.com/renukaprasadbs454"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -30,7 +30,7 @@ Premium developer portfolio built with **Next.js 14**, **TypeScript**, **Tailwin
 
 ```bash
 # Clone the repository
-git clone https://github.com/RenukaPrasadB/renukaprasadbs-protfolio-info.git
+git clone https://github.com/renukaprasadbs454/renukaprasadbs-protfolio-info.git
 cd renukaprasadbs-protfolio-info
 
 # Install dependencies
