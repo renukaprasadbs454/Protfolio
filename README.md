@@ -1,73 +1,164 @@
-# Welcome to your Lovable project
+# Renuka Prasad B.S — Portfolio
 
-## Project info
+Premium developer portfolio built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, and **Shadcn UI**.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+> Full Stack & AI Engineer — Building scalable software systems, AI-powered applications, and automation workflows.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Tech Stack
 
-**Use Lovable**
+| Layer | Technologies |
+|-------|-------------|
+| Framework | Next.js 14 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Animation | Framer Motion |
+| UI | Shadcn UI + Radix UI |
+| Icons | Lucide React |
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js 18.17 or later
+- npm, yarn, or pnpm
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+```bash
+# Clone the repository
+git clone https://github.com/RenukaPrasadB/renukaprasadbs-protfolio-info.git
+cd renukaprasadbs-protfolio-info
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Build for Production
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+npm start
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## Deploy to Vercel
 
-This project is built with:
+The fastest way to deploy this portfolio:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Option 1: Vercel CLI
 
-## How can I deploy this project?
+```bash
+npm i -g vercel
+vercel
+```
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Follow the prompts. Vercel auto-detects Next.js.
 
-## Can I connect a custom domain to my Lovable project?
+### Option 2: GitHub Integration
 
-Yes, you can!
+1. Push this repo to GitHub
+2. Go to [vercel.com/new](https://vercel.com/new)
+3. Import your repository
+4. Vercel auto-configures:
+   - **Framework Preset:** Next.js
+   - **Build Command:** `next build`
+   - **Output Directory:** `.next`
+5. Click **Deploy**
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Post-Deploy Checklist
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- [ ] Verify `/resume.pdf` downloads correctly
+- [ ] Confirm GitHub stats images load (external API)
+- [ ] Test mobile responsiveness
+- [ ] Update project GitHub/demo links in `lib/data.ts`
+
+---
+
+## Folder Structure
+
+```
+renukaprasadbs-protfolio-info/
+├── app/                          # Next.js App Router
+│   ├── layout.tsx                # Root layout, fonts, SEO metadata
+│   ├── page.tsx                  # Main portfolio page
+│   └── globals.css               # Global styles & CSS variables
+│
+├── components/
+│   ├── layout/                   # Navbar, Footer
+│   ├── sections/                 # Page sections
+│   │   ├── hero.tsx              # Hero with typing animation
+│   │   ├── about.tsx             # Professional summary
+│   │   ├── skills.tsx            # Skill categories
+│   │   ├── experience.tsx        # Timeline layout
+│   │   ├── projects.tsx          # Featured project cards
+│   │   ├── tech-stack.tsx        # Technology badges
+│   │   ├── github-activity.tsx   # GitHub stats & graphs
+│   │   └── contact.tsx           # Contact CTA
+│   ├── shared/                   # Reusable components
+│   │   ├── animated-background.tsx
+│   │   ├── section-wrapper.tsx
+│   │   ├── typing-animation.tsx
+│   │   └── project-screenshot.tsx
+│   └── ui/                       # Shadcn UI primitives
+│       ├── button.tsx
+│       ├── badge.tsx
+│       └── card.tsx
+│
+├── lib/
+│   ├── data.ts                   # Portfolio content (edit here)
+│   └── utils.ts                  # cn() utility
+│
+├── public/
+│   ├── images/                   # Profile photos
+│   └── resume.pdf                # Downloadable resume
+│
+├── tailwind.config.ts
+├── next.config.mjs
+└── package.json
+```
+
+---
+
+## Customization
+
+All portfolio content lives in **`lib/data.ts`**. Update:
+
+- Personal info & social links
+- About summary & education
+- Skills & tech stack
+- Experience timeline
+- Featured projects
+- Navigation links
+
+To swap the resume, replace `public/resume.pdf`.
+
+To update project screenshots, replace placeholder components in `components/shared/project-screenshot.tsx` with real images in `public/images/projects/`.
+
+---
+
+## Sections
+
+1. **Hero** — Animated intro, typing effect, CTAs, social links
+2. **About** — Professional summary from resume
+3. **Skills** — Grouped animated skill cards
+4. **Experience** — Premium timeline layout
+5. **Projects** — Visual cards with tech badges & links
+6. **Tech Stack** — Interactive technology badges
+7. **GitHub** — Stats, streak, languages, contribution graph
+8. **Contact** — Email, LinkedIn, GitHub CTAs
+
+---
+
+## License
+
+Private portfolio — © Renuka Prasad B.S
